@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Queiroz | Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        body { background-color: #0f172a; color: #f8fafc; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; min-height: 100vh; }
+        .profile-container { text-align: center; margin-bottom: 30px; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; border: 4px solid #38bdf8; margin-bottom: 15px; object-fit: cover; box-shadow: 0 0 20px rgba(56, 189, 248, 0.3); }
+        h1 { font-size: 1.8rem; margin-bottom: 8px; letter-spacing: -0.5px; }
+        .bio { color: #94a3b8; font-size: 0.95rem; max-width: 350px; line-height: 1.5; margin: 0 auto 20px auto; }
+        .links-container { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 12px; }
+        .link-card { background-color: #1e293b; padding: 16px; border-radius: 12px; text-decoration: none; color: white; text-align: center; font-weight: 700; transition: all 0.3s ease; border: 1px solid #334155; display: flex; justify-content: center; align-items: center; gap: 10px; }
+        .link-card:hover { transform: translateY(-3px); background-color: #334155; border-color: #38bdf8; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3); }
+        .highlight { background: linear-gradient(90deg, #0284c7, #38bdf8); border: none; }
+        .footer { margin-top: auto; padding-top: 40px; font-size: 0.75rem; color: #64748b; }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <img src="foto-nathan.jpg" alt="Nathan Queiroz" class="profile-img">
+        <h1>Nathan Queiroz</h1>
+        <p class="bio">
+            Software Engineering Student | Monitoring Analyst & SOC Specialist | Full Stack Developer
+        </p>
+    </div>
+
+    <div class="links-container">
+        <a href="https://wa.me/55929XXXXXXXX" target="_blank" class="link-card highlight">
+            🚀 Solicitar Orçamento de Sistema
+        </a>
+
+        <a href="https://www.linkedin.com/in/nathan-ferri-queiroz-b9a045347" target="_blank" class="link-card">
+            💼 Perfil Profissional (LinkedIn)
+        </a>
+
+        <a href="https://instagram.com/SEU_USER" target="_blank" class="link-card">
+            📸 Instagram Profissional
+        </a>
+
+        <a href="https://github.com/brasilrj10" target="_blank" class="link-card">
+            💻 Ver Portfólio no GitHub
+        </a>
+    </div>
+
+    <div class="footer">
+        Desenvolvido por Nathan Queiroz © 2026
+    </div>
+
+</body>
+</html>
